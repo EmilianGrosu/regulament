@@ -439,21 +439,7 @@ const prs = {
       <br>⟶ Jail (60m)
     </p>
     <br><br>
-    `,
-    "Tutoriale":
     `
-    <div class="video">
-        <iframe width="80%" height="400px" src="https://www.youtube.com/embed/nRTfgR2o6HI"></iframe>
-    </div>
-    <div class="video">
-        <iframe width="80%" height="400px" src="https://www.youtube.com/embed/nRTfgR2o6HI"></iframe>
-    </div>
-    <div class="video">
-        <iframe width="80%" height="400px" src="https://www.youtube.com/embed/nRTfgR2o6HI"></iframe>
-    </div>
-    <div class="img">
-      <img src="img/test.png" width="80%" height="400px"></img>
-    </div>`
   }
   
   for (const o in prs) {
