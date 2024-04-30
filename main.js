@@ -81,7 +81,7 @@ const prs = {
       <br><br>
       　　<u>♦ Act suicidal pentru a scăpa de un roleplay</u>
       <br><br>
-      　　　　<b>Exemplu:</b> Sunteți urmărit de poliție și, în loc să vă predați, alegeți să vă aruncați cu vehiculul în mare.
+      　　　　<b>Exemplu:</b> Sunteți urmărit de poliție și, în loc să vă predați, alegeți să vă aruncați cu vehiculul în mare și muriți înecat.
       <br><br>
       　　　　<b>Exemplu:</b> Sunteți capturat de mafioți și, aflându-vă într-un vehicul care circulă cu o viteză periculoasă, alegeți să-l părăsiți din mers pentru a încerca să scăpați.
       <br><br>
