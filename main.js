@@ -464,30 +464,6 @@ selectOption("Regulament");
 
 $(function() {
 
-  function display(bool) {
-    if (bool) {
-      $("html").fadeIn();
-    } else {
-      $("html").fadeOut();
-    }
-  }
-
-  window.addEventListener('message', function(event) {
-    var item = event.data;
-    if (item.type === "ui") {
-      if (item.status == true) {
-        display(true)
-      } else {
-        display(false)
-      }
-    }
-  })
-  
-  document.onkeyup = function(data){
-    if (data.which == 27) {
-      $.post('https://info/exit', JSON.stringify({}));
-      return
-    }
-  }
+  $("html").fadeIn();
 
 })
