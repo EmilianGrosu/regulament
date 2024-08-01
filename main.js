@@ -14,7 +14,7 @@ const prs = {
   <p>
     ➨ Reprezintă simularea unei vieți reale.
   </p>
-  <h2>[MX] - Mixing</h2>
+  <h2>[MG] - Metagaming</h2>
   <p>
     ➨ Reprezintă amestecarea informațiilor IC cu cele OOC și viceversa.
     <br><br>
@@ -234,7 +234,7 @@ const prs = {
   </p>
   <h2>3. Roleplay</h2>
   <br>
-  <h3>3.1 Mixing</h3>
+  <h3>3.1 Metagaming</h3>
   <br>
   <p>
     ➨ Este interzis să faceți Mixing!
