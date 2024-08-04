@@ -237,7 +237,7 @@ const prs = {
   <h3>3.1 Metagaming</h3>
   <br>
   <p>
-    ➨ Este interzis să faceți Mixing!
+    ➨ Este interzis să faceți Metagaming!
     <br><br>
     <b>SANCȚIUNI:</b>
     <br>⟶ Jail (15m)
