@@ -20,13 +20,9 @@ const prs = {
     <br><br>
     ➨ Vorbitul pe joc este strict IC (poate fi OOC doar cu permisiunea unui membru STAFF). Chat-ul este strict OOC!
     <br><br>
-    <b>Exemplu:</b> Emilian este live pe YouTube și joacă pe Bellatrix. Un jucător, în urma vizionării transmisiei, merge la locația lui și îl salută. Jucătorul trebuie
-    <br>
-    sancționat pentru că a amestecat mediul OOC cu cel IC.
+    <b>Exemplu:</b> Emilian este live pe YouTube și joacă pe Bellatrix. Un jucător, în urma vizionării transmisiei, merge la locația lui și îl salută. Jucătorul trebuie sancționat pentru că a amestecat mediul OOC cu cel IC.
     <br><br>
-    <b>Exemplu:</b> În timp ce se află într-un roleplay, un jucător vorbește pe joc că trebuie să plece la baie și că nu va mai fi la tastatură. Jucătorul trebuie sancționat
-    <br>
-    pentru că a amestecat mediul IC cu cel OOC.
+    <b>Exemplu:</b> În timp ce se află într-un roleplay, un jucător vorbește pe joc că trebuie să plece la baie și că nu va mai fi la tastatură. Jucătorul trebuie sancționat pentru că a amestecat mediul IC cu cel OOC.
   </p>
   <h2>[PG] - Powergaming</h2>
   <p>
@@ -34,17 +30,13 @@ const prs = {
     <br><br>
     <b>Exemplu:</b> Într-un schimb de focuri sunteți împușcat în mâini și ulterior cărați o persoană”. Trebuie să fiți sancționat pentru că v-ați atribuit o acțiune imposibilă în realitate.
     <br><br>
-    <b>Exemplu:</b> Vă aflați într-o bătaie IC și oponentul dumneavoastră trimite mesaje de acest gen: "/me Îi dă un pumn în cap și îl omoară",
-    <br>
-    "/me Îl împinge și îl face să leșine". Acest jucător trebuie sancționat pentru că nu v-a lăsat nicio șansă de răspuns la roleplay!
+    <b>Exemplu:</b> Vă aflați într-o bătaie IC și oponentul dumneavoastră trimite mesaje de acest gen: "/me Îi dă un pumn în cap și îl omoară", "/me Îl împinge și îl face să leșine". Acest jucător trebuie sancționat pentru că nu v-a lăsat nicio șansă de răspuns la roleplay!
   </p>
   <h2>[DM] - Deathmatch</h2>
   <p>
     ➨ Reprezintă omorârea sau lovirea intenționată a unui jucător fără vreun motiv bine întemeiat.
     <br><br>
-    <b>Exemplu:</b> Mergeți pe stradă și luați la pumni un individ pentru că este de culoare neagră. Trebuie să fiți sancționat pentru că ați lovit intenționat un jucător fără vreun
-    <br>
-    motiv bine întemeiat.
+    <b>Exemplu:</b> Mergeți pe stradă și luați la pumni un individ pentru că este de culoare neagră. Trebuie să fiți sancționat pentru că ați lovit intenționat un jucător fără vreun motiv bine întemeiat.
   </p>
   <h2>[PK] - Player Kill</h2>
   <p>
@@ -52,9 +44,7 @@ const prs = {
     <br><br>
     <b>Exemplu:</b> Aflați că un polițist este corupt și peste 20 de minute muriți de foame. În cazul în care vă veți folosi de această informație după respawn, veți fi sancționat.
     <br><br>
-    <b>Exemplu:</b> Vă aflați la o dispută între organizații. În urma unui schimb de focuri, omorâți o persoană. În loc să le spuneți camarazilor dumneavoastră doar că ați ucis un inamic, le
-    <br>
-    comunicați numele victimei, fapt ce determină să nu se respecte PK-ul, deoarece, după respawn, ceilalți jucători îl vor cunoaște pe respectivul ca fiind mort. Prin urmare, veți fi sancționat
+    <b>Exemplu:</b> Vă aflați la o dispută între organizații. În urma unui schimb de focuri, omorâți o persoană. În loc să le spuneți camarazilor dumneavoastră doar că ați ucis un inamic, le comunicați numele victimei, fapt ce determină să nu se respecte PK-ul, deoarece, după respawn, ceilalți jucători îl vor cunoaște pe respectivul ca fiind mort. Prin urmare, veți fi sancționat
     pentru că nu ați respectat PK-ul.
   </p>
   <h2>[CK] - Character Kill</h2>
@@ -69,9 +59,7 @@ const prs = {
     <br><br>
     　　　　<b>Exemplu:</b> Sunteți într-o organizație mafiotă, vindeți poliției informații care pun în pericol gruparea dumneavoastră, sunteți prins de către membri și primiți CK.
     <br><br>
-    　　　　<b>Exemplu:</b> Faceți parte din Departamentul de Poliție și, în urma unei percheziții, în loc să depozitați la evidență drogurile găsite, alegeți să le vindeți ilegal. Sunteți prins
-    <br>
-    　　　　de către superiori și aceștia hotărăsc să vă ofere CK.
+    　　　　<b>Exemplu:</b> Faceți parte din Departamentul de Poliție și, în urma unei percheziții, în loc să depozitați la evidență drogurile găsite, alegeți să le vindeți ilegal. Sunteți prins de către superiori și aceștia hotărăsc să vă ofere CK.
     <br><br>
     　　<u>♦ Sinucidere</u>
     <br><br>
@@ -232,6 +220,19 @@ const prs = {
     <br>⟶ Ban (30z)
     <br>⟶ Ban (permanent)
   </p>
+  <h3>2.7 Disconnect în roleplay</h3>
+  <br>
+  <p>
+    ➨ Este interzis să vă deconectați într-un roleplay în desfășurare!
+    <br><br>
+    <b>SANCȚIUNI:</b>
+    <br>⟶ Jail (30m)
+    <br>⟶ Jail (60m)
+    <br>⟶ Jail (180m)
+    <br>⟶ Ban (7z)
+    <br>⟶ Ban (15z)
+    <br>⟶ Ban (30z)
+  </p>
   <h2>3. Roleplay</h2>
   <br>
   <h3>3.1 Metagaming</h3>
@@ -374,7 +375,7 @@ const prs = {
   <h3>3.12 Instituție</h3>
   <br>
   <p>
-    ➨ Este interzis să faceți activități periculoase într-o instituție (curtea de apel, secția de poliție, spitalul etc.)!
+    ➨ Este interzis să faceți activități periculoase într-o instituție (curtea de apel, secția de poliție, spitalul, service-ul auto), cât și în împrejurimile acesteia!
     <br><br>
     ➨ Este interzis să se fure bunuri din depozitele facțiunilor legale!
     <br><br>
@@ -418,9 +419,41 @@ const prs = {
   <p>
     ➨ Este interzis să tâlhăriți aceeași persoană, decât după 3 ore de la ultimul jaf asupra acesteia!
     <br><br>
+    ➨ Este interzis să jefuiți o persoană care este în comă pe jos, fără să fi avut vreo interacțiune cu aceasta!
+    <br><br>
     <b>SANCȚIUNI:</b>
     <br>⟶ Jail (20m)
     <br>⟶ Jail (45m)
+    <br>⟶ Jail (60m)
+  </p>
+  <h3>4.3 Ore de jefuit</h3>
+  <br>
+  <p>
+    ➨ Aveți permisiunea de a jefui doar în intervalul orar 21:00 - 04:00!
+    <br><br>
+    <b>SANCȚIUNI:</b>
+    <br>⟶ Jail (20m)
+    <br>⟶ Jail (40m)
+    <br>⟶ Jail (60m)
+  </p>
+  <h3>4.4 Zone de jefuit</h3>
+  <br>
+  <p>
+    ➨ Este strict interzis să jefuiți în Paleto Bay la garsonierele de la spawn, la magazine (de orice tip), la minijob-uri, la parcări, la benzinării și pe străzile principale!
+    <br><br>
+    <b>SANCȚIUNI:</b>
+    <br>⟶ Jail (15m)
+    <br>⟶ Jail (30m)
+    <br>⟶ Jail (60m)
+  </p>
+  <h3>4.5 Jefuirea persoanelor care fac job</h3>
+  <br>
+  <p>
+    ➨ Este strict interzis să jefuiți jucătorii la job-uri, minijob-uri, cat și pe cei care sunt în tură la facțiunile legale (poliție, medici, mecanici)!
+    <br><br>
+    <b>SANCȚIUNI:</b>
+    <br>⟶ Jail (20m)
+    <br>⟶ Jail (40m)
     <br>⟶ Jail (60m)
   </p>
   <h2>5. Jafuri clădiri</h2>
