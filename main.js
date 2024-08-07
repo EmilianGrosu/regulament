@@ -375,7 +375,7 @@ const prs = {
   <h3>3.12 Instituție</h3>
   <br>
   <p>
-    ➨ Este interzis să faceți activități periculoase într-o instituție (curtea de apel, secția de poliție, spitalul, service-ul auto), cât și în împrejurimile acesteia!
+    ➨ Este interzis să faceți activități periculoase într-o instituție (curtea de apel, secția de poliție, spitalul, service-ul auto, consiliul, judecătoria, universitatea etc.), cât și în împrejurimile acesteia!
     <br><br>
     ➨ Este interzis să se fure bunuri din depozitele facțiunilor legale!
     <br><br>
@@ -439,7 +439,7 @@ const prs = {
   <h3>4.4 Zone de jefuit</h3>
   <br>
   <p>
-    ➨ Este strict interzis să jefuiți în Paleto Bay la garsonierele de la spawn, la magazine (de orice tip), la minijob-uri, la parcări, la benzinării și pe străzile principale!
+    ➨ Este strict interzis să jefuiți în Paleto Bay în zonele publice (garsoniere de la spawn, magazine de orice tip, minijob-uri, job-uri, parcări, benzinării, străzile principale etc.)!
     <br><br>
     <b>SANCȚIUNI:</b>
     <br>⟶ Jail (15m)
