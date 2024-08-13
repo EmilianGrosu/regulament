@@ -314,6 +314,8 @@ const prs = {
     <br><br>
     ➨ Este interzis să aterizați cu elicopterul pe un drum auto, fără vreun motiv bine întemeiat!
     <br><br>
+    ➨ Este interzis să loviți intenționat un jucător folosind un vehicul, indiferent de situație!
+    <br><br>
     <b>SANCȚIUNI:</b>
     <br>⟶ Jail (10m)
     <br>⟶ Jail (20m)
