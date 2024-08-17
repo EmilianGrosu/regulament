@@ -348,7 +348,7 @@ const prs = {
   <h3>3.10 Corupție</h3>
   <br>
   <p>
-    ➨ Este interzis ca liderii de la facțiunile de stat să fie corupți!
+    ➨ Este interzis ca membrii din conducerea de la facțiunile de stat să fie corupți!
     <br><br>
     ➨ Este interzis ca membrii unei facțiuni de stat să ofere bunurile acesteia!
     <br><br>
@@ -421,7 +421,7 @@ const prs = {
   <p>
     ➨ Este interzis să tâlhăriți aceeași persoană, decât după 3 ore de la ultimul jaf asupra acesteia!
     <br><br>
-    ➨ Este interzis să jefuiți o persoană care este în comă pe jos, fără să fi avut vreo interacțiune cu aceasta!
+    ➨ Este interzis să jefuiți o persoană care este în comă, fără să fi avut vreo interacțiune cu aceasta!
     <br><br>
     <b>SANCȚIUNI:</b>
     <br>⟶ Jail (20m)
@@ -451,7 +451,7 @@ const prs = {
   <h3>4.5 Jefuirea persoanelor care fac job</h3>
   <br>
   <p>
-    ➨ Este strict interzis să jefuiți jucătorii la job-uri, minijob-uri, cat și pe cei care sunt în tură la facțiunile legale (poliție, medici, mecanici)!
+    ➨ Este strict interzis să jefuiți jucătorii la job-uri, minijob-uri, cât și pe cei care sunt în tură la facțiunile legale (poliție, medici, mecanici)!
     <br><br>
     <b>SANCȚIUNI:</b>
     <br>⟶ Jail (20m)
