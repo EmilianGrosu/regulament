@@ -187,6 +187,16 @@ button {
   line-height: 123%; /* 35.67px */
 }
 
+.logo-img {
+  height: 8.5vh;
+  width: 4.5vw;
+}
+
+.info-img {
+  height: 1.5vh;
+  width: 1vw;
+}
+
 .value {
   display: flex;
   flex-direction: column;
@@ -206,14 +216,4 @@ button {
   font-weight: 500;
   max-width: 95%;
   line-height: 139%; /* 22.24px */
-}
-
-.logo-img {
-  height: 8.5vh;
-  width: 4.5vw;
-}
-
-.info-img {
-  height: 1.5vh;
-  width: 1vw;
 }
