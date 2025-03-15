@@ -207,3 +207,13 @@ button {
   max-width: 95%;
   line-height: 139%; /* 22.24px */
 }
+
+.logo-img {
+  height: 8.5vh;
+  width: 4.5vw;
+}
+
+.info-img {
+  height: 1.5vh;
+  width: 1vw;
+}
