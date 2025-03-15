@@ -436,112 +436,6 @@ const content = {
       ],
     },
   ],
-  tutorial: [
-    {
-      header: 'Interacțiuni',
-      content: [
-        `<div class='video'>
-          <iframe width='80%' height='700vh' src='https://www.youtube.com/embed/jmK5vF3JOK0'></iframe>
-        </div>`,
-      ],
-    },
-    {
-      header: 'Garsonieră',
-      content: [
-        `<div class='video'>
-          <iframe width='80%' height='700vh' src='https://www.youtube.com/embed/D90kHYh_qHI'></iframe>
-        </div>`,
-      ],
-    },
-    {
-      header: 'Hud ceas',
-      content: [
-        `<div class='video'>
-          <iframe width='80%' height='700vh' src='https://www.youtube.com/embed/F7onOZ-RZxY'></iframe>
-        </div>`,
-      ],
-    },
-    {
-      header: 'Hud vehicul',
-      content: [
-        `<div class='video'>
-          <iframe width='80%' height='700vh' src='https://www.youtube.com/embed/9t30272VI8Q'></iframe>
-        </div>`,
-      ],
-    },
-    {
-      header: 'Cheie vehicul',
-      content: [
-        `<div class='video'>
-          <iframe width='80%' height='700vh' src='https://www.youtube.com/embed/jb-QjAb4wZI'></iframe>
-        </div>`,
-      ],
-    },
-    {
-      header: 'Showroom',
-      content: [
-        `<div class='video'>
-          <iframe width='80%' height='700vh' src='https://www.youtube.com/embed/BmQmXOt_Tqo'></iframe>
-        </div>`,
-      ],
-    },
-    {
-      header: 'Bancă',
-      content: [
-        `<div class='video'>
-          <iframe width='80%' height='700vh' src='https://www.youtube.com/embed/WkugLcauNyA'></iframe>
-        </div>`,
-      ],
-    },
-    {
-      header: 'Meniu F1',
-      content: [
-        `<div class='video'>
-          <iframe width='80%' height='700vh' src='https://www.youtube.com/embed/0G2flFmb1zw'></iframe>
-        </div>`,
-      ],
-    },
-    {
-      header: 'Permis de conducere',
-      content: [
-        `<div class='video'>
-          <iframe width='80%' height='700vh' src='https://www.youtube.com/embed/GNZRQ9-j29Q'></iframe>
-        </div>`,
-      ],
-    },
-    {
-      header: 'Permis de port armă',
-      content: [
-        `<div class='video'>
-          <iframe width='80%' height='700vh' src='https://www.youtube.com/embed/fU89d-wxuU4'></iframe>
-        </div>`,
-      ],
-    },
-    {
-      header: 'Șperaclu (Lockpick)',
-      content: [
-        `<div class='video'>
-          <iframe width='80%' height='700vh' src='https://www.youtube.com/embed/N7Dzt5o8ITE'></iframe>
-        </div>`,
-      ],
-    },
-    {
-      header: 'Universitate',
-      content: [
-        `<div class='video'>
-          <iframe width='80%' height='700vh' src='https://www.youtube.com/embed/1w2loccfMLA'></iframe>
-        </div>`,
-      ],
-    },
-    {
-      header: 'Jaf casă',
-      content: [
-        `<div class='video'>
-          <iframe width='80%' height='700vh' src='https://www.youtube.com/embed/tNXYzCiRdTE'></iframe>
-        </div>`,
-      ],
-    },
-  ],
 }
 
 function formatHeader(str) {
@@ -575,7 +469,7 @@ $(function () {
   $('body').fadeIn()
   $('button').click(function () {
     const action = $(this).data('action')
-    if (action !== 'regulament' && action !== 'tutorial' && action !== 'termeni')
+    if (action !== 'termeni' && action !== 'regulament')
       return
     if ($(this).hasClass('active'))
       return
