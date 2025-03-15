@@ -467,6 +467,7 @@ function setOption(option) {
 
 $(function () {
   $('body').fadeIn()
+  setOption('termeni')
   $('button').click(function () {
     const action = $(this).data('action')
     if (action !== 'termeni' && action !== 'regulament')
