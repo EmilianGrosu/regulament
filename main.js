@@ -69,7 +69,7 @@ const content = {
         '    ♦ Război între facțiuni',
         '<b>Exemplu:</b> Dețineți o organizație și sunteți în conflict cu o altă grupare. Sunteți de comun acord să faceți război pe CK. În urma acestuia, toți membrii din facțiunea.',
         '    ♦ Închisoare pe viață',
-        '<b>Exemplu:</b> Sunteți urmărit de poliție pentru diverse infracțiuni și, în urma arestării dumneavoastră, aceștia vă prezintă o sentință de peste 300 de luni pentru faptele comise.',
+        '<b>Exemplu:</b> Sunteți urmărit de poliție pentru diverse infracțiuni și, în urma arestării dumneavoastră, aceștia vă prezintă o sentință de peste 600 de luni pentru faptele comise.',
         '    ♦ Alte motive',
         '<b>Exemplu:</b> Un civil v-a distrus căsnicia, v-a lăsat fără loc de muncă și v-a adus într-o stare financiară deplorabilă. Vorbiți cu un Responsabil CK prezentându-i situația, acesta vă oferă permisiunea să faceți așa ceva, filmați roleplay-ul în care îl omorâți într-un mod complex, i-l arătați membrului STAFF, pe urmă civilul primește CK!',
       ],
