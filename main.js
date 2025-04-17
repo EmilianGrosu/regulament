@@ -1,5 +1,5 @@
 const content = {
-  termeni: [
+    termeni: [
     {
       header: '[IC] - In Character',
       content: [
@@ -70,6 +70,8 @@ const content = {
         '<b>Exemplu:</b> Dețineți o organizație și sunteți în conflict cu o altă grupare. Sunteți de comun acord să faceți război pe CK. În urma acestuia, toți membrii din facțiunea.',
         '    ♦ Închisoare pe viață',
         '<b>Exemplu:</b> Sunteți urmărit de poliție pentru diverse infracțiuni și, în urma arestării dumneavoastră, aceștia vă prezintă o sentință de peste 600 de luni pentru faptele comise.',
+        '    ♦ Decizie sindicat',
+        '<b>Exemplu:</b> Sunteți implicat într-un conflict care compromite integritatea și reputația sindicatului, astfel un membru al acestuia poate decide să vă ofere CK.',
         '    ♦ Alte motive',
         '<b>Exemplu:</b> Un civil v-a distrus căsnicia, v-a lăsat fără loc de muncă și v-a adus într-o stare financiară deplorabilă. Vorbiți cu un Responsabil CK prezentându-i situația, acesta vă oferă permisiunea să faceți așa ceva, filmați roleplay-ul în care îl omorâți într-un mod complex, i-l arătați membrului STAFF, pe urmă civilul primește CK!',
       ],
@@ -78,8 +80,7 @@ const content = {
       header: '[NF] - No Fear',
       content: [
         '➨ Reprezintă alegerea unui jucător de a nu simula frica într-un roleplay în care aceasta este necesară.',
-        '<b>Exemplu:</b> Sunteți atacat de un mafiot. Acesta are arma îndreptată înspre dumneavoastră și, neavând nicio cale de scăpare, nu efectuați comenzile pe care acesta vi le impune.',
-        'Trebuie să fiți sancționat pentru că nu ați simulat frica într-un roleplay în care aceasta este necesară.',
+        '<b>Exemplu:</b> Sunteți atacat de un mafiot. Acesta are arma îndreptată înspre dumneavoastră și, neavând nicio cale de scăpare, nu efectuați comenzile pe care acesta vi le impune. Trebuie să fiți sancționat pentru că nu ați simulat frica într-un roleplay în care aceasta este necesară.',
         '<b>Exemplu:</b> Treceți insistent cu un vehicul prin fața secției de poliție, nerespectând legislația, pentru a provoca autoritățile să vă urmărească. Trebuie să fiți sancționat pentru că nu ați simulat frica într-un roleplay în care aceasta este necesară.',
         '<b>Exemplu:</b> Sunteți la secție, reținut de niște cadre de poliție și, în loc să vă conformați situației, aveți un comportament indecent cu autoritățile. Trebuie să fiți sancționat pentru că nu ați simulat frica într-un roleplay în care aceasta este necesară.',
       ],
@@ -306,7 +307,7 @@ const content = {
     {
       header: '3.9 Înșelăciune',
       content: [
-        '➨ Este interzis să înșelați pe cineva dacă suma totală de câștig este mai mare decât 1000 lei!',
+        '➨ Este interzis să înșelați pe cineva dacă suma totală de câștig este mai mare decât 5000 lei!',
         '<b>SANCȚIUNI:</b>',
         '⟶ Jail (30m)',
         '⟶ Jail (60m)',
@@ -318,7 +319,7 @@ const content = {
     {
       header: '3.10 Corupție',
       content: [
-        '➨ Este interzis ca liderii de la facțiunile de stat să fie corupți!',
+        '➨ Este interzis ca administrația de la facțiunile de stat să fie coruptă!',
         '➨ Este interzis ca membrii unei facțiuni de stat să ofere bunurile acesteia!',
         '<b>SANCȚIUNI:</b>',
         '⟶ Jail (30m)',
@@ -333,7 +334,7 @@ const content = {
       header: '3.11 Raid-uri',
       content: [
         '➨ Este interzis ca o organizație, alta decât cele oficiale, să facă un raid!',
-        '➨ Pentru a se da raid la o facțiune este necesar ca minim 10 membri din aceasta să fie în joc!',
+        '➨ Pentru a se da raid la o facțiune este necesar ca minim 6 membri din aceasta să fie în joc!',
         '➨ Fiecare facțiune oficială are permisiunea de a da un singur raid pe săptămână!',
         '<b>SANCȚIUNI:</b>',
         '⟶ Jail (30m)',
@@ -394,7 +395,7 @@ const content = {
     {
       header: '4.3 Ore de jefuit',
       content: [
-        '➨ Aveți permisiunea de a jefui doar în intervalul orar 21:00 - 04:00!',
+        '➨ Aveți permisiunea de a jefui doar în intervalul orar 18:00 - 06:00!',
         '<b>SANCȚIUNI:</b>',
         '⟶ Jail (20m)',
         '⟶ Jail (40m)',
@@ -404,7 +405,7 @@ const content = {
     {
       header: '4.4 Zone de jefuit',
       content: [
-        '➨ Este strict interzis să jefuiți în zonele publice (garsoniere de la spawn, magazine de orice tip, minijob-uri, job-uri, parcări, benzinării, străzile principale etc.)!',
+        '➨ Este strict interzis să jefuiți în zonele publice (garsoniere de la spawn, magazine de orice tip, minijob-uri, job-uri, parcări, benzinării, străzi principale, autostrăzi etc.)!',
         '<b>SANCȚIUNI:</b>',
         '⟶ Jail (15m)',
         '⟶ Jail (30m)',
@@ -414,7 +415,7 @@ const content = {
     {
       header: '4.5 Jefuirea persoanelor care fac job',
       content: [
-        '➨ Este strict interzis să jefuiți jucătorii la job-uri, minijob-uri, cat și pe cei care sunt în tură la facțiunile legale (poliție, medici, mecanici)!',
+        '➨ Este strict interzis să jefuiți jucătorii la minijob-uri, job-uri, cât și pe cei care sunt în tură la facțiunile legale (poliție, medici, mecanici)!',
         '<b>SANCȚIUNI:</b>',
         '⟶ Jail (20m)',
         '⟶ Jail (40m)',
@@ -428,11 +429,35 @@ const content = {
       header: '5.1 Ostatic',
       content: [
         '➨ Este interzis să aveți un ostatic fals!',
+        '➨ La jafuri puteți face roleplay cu ostatic, dar nu este obligatoriu!',
         '<b>SANCȚIUNI:</b>',
         '⟶ Jail (15m)',
         '⟶ Jail (30m)',
         '⟶ Jail (45m)',
         '⟶ Jail (60m)',
+      ],
+    },
+    {
+      header: '5.2 Magazine',
+      content: [
+        '➨ Pentru a jefui un magazin trebuie să fiți minim 2 persoane!',
+        '<b>SANCȚIUNI:</b>',
+        '⟶ Jail (10m)',
+        '⟶ Jail (20m)',
+        '⟶ Jail (30m)',
+        '⟶ Jail (40m)',
+      ],
+    },
+    {
+      header: '5.3 Bănci',
+      content: [
+        '➨ Pentru a jefui o bancă trebuie să fiți minim 4 persoane!',
+        '➨ În cazul jafului de la banca Pacific, confruntarea începe imediat! Intervenția forțelor de ordine poate fi directă și imediată, fără avertisment!',
+        '<b>SANCȚIUNI:</b>',
+        '⟶ Jail (10m)',
+        '⟶ Jail (20m)',
+        '⟶ Jail (30m)',
+        '⟶ Jail (40m)',
       ],
     },
   ],
