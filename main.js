@@ -1,5 +1,5 @@
 const content = {
-    termeni: [
+   termeni: [
     {
       header: '[IC] - In Character',
       content: [
@@ -308,6 +308,7 @@ const content = {
       header: '3.9 Înșelăciune',
       content: [
         '➨ Este interzis să înșelați pe cineva dacă suma totală de câștig este mai mare decât 5000 lei!',
+        '➨ Se încadrează și situațiile unde propuneți unui jucător o tranzacționare cu scopul ca acesta să fie jefuit ulterior!',
         '<b>SANCȚIUNI:</b>',
         '⟶ Jail (30m)',
         '⟶ Jail (60m)',
@@ -373,7 +374,9 @@ const content = {
       header: '4.1 Bunuri',
       content: [
         '➨ Este interzis să jefuiți bunurile unei persoane, iar pe urmă să o omorâți și viceversa!',
-        '➨ Regula nu se aplică în cazul în care victima nu respectă comenzile atacatorului.',
+        '➨ Regula nu se aplică în cazul în care victima nu respectă comenzile atacatorului!',
+        '➨ Regula nu se aplică în cazul în care luați arma persoanei de pe jos!',
+        '➨ Regula nu se aplică în cazul în care au fost luate doar bunuri care au rol de comunicare (telefon, radio, mdt etc.)!',
         '<b>SANCȚIUNI:</b>',
         '⟶ Jail (15m)',
         '⟶ Jail (30m)',
@@ -438,18 +441,7 @@ const content = {
       ],
     },
     {
-      header: '5.2 Magazine',
-      content: [
-        '➨ Pentru a jefui un magazin trebuie să fiți minim 2 persoane!',
-        '<b>SANCȚIUNI:</b>',
-        '⟶ Jail (10m)',
-        '⟶ Jail (20m)',
-        '⟶ Jail (30m)',
-        '⟶ Jail (40m)',
-      ],
-    },
-    {
-      header: '5.3 Bănci',
+      header: '5.2 Bănci',
       content: [
         '➨ Pentru a jefui o bancă trebuie să fiți minim 4 persoane!',
         '➨ În cazul jafului de la banca Pacific, confruntarea începe imediat! Intervenția forțelor de ordine poate fi directă și imediată, fără avertisment!',
