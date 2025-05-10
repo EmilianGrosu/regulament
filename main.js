@@ -1,5 +1,5 @@
 const content = {
-   termeni: [
+ termeni: [
     {
       header: '[IC] - In Character',
       content: [
@@ -73,7 +73,7 @@ const content = {
         '    ♦ Decizie sindicat',
         '<b>Exemplu:</b> Sunteți implicat într-un conflict care compromite integritatea și reputația sindicatului, astfel un membru al acestuia poate decide să vă ofere CK.',
         '    ♦ Alte motive',
-        '<b>Exemplu:</b> Un civil v-a distrus căsnicia, v-a lăsat fără loc de muncă și v-a adus într-o stare financiară deplorabilă. Vorbiți cu un Responsabil CK prezentându-i situația, acesta vă oferă permisiunea să faceți așa ceva, filmați roleplay-ul în care îl omorâți într-un mod complex, i-l arătați membrului STAFF, pe urmă civilul primește CK!',
+        '<b>Exemplu:</b> Un civil v-a distrus căsnicia, v-a lăsat fără loc de muncă și v-a adus într-o stare financiară deplorabilă. Vorbiți cu un Responsabil CK prezentându-i situația, acesta vă oferă permisiunea să faceți așa ceva, filmați roleplay-ul în care îl omorâți într-un mod complex, arătați dovada membrului STAFF, pe urmă civilul primește CK!',
       ],
     },
     {
@@ -335,8 +335,8 @@ const content = {
       header: '3.11 Raid-uri',
       content: [
         '➨ Este interzis ca o organizație, alta decât cele oficiale, să facă un raid!',
-        '➨ Pentru a se da raid la o facțiune este necesar ca minim 6 membri din aceasta să fie în joc!',
-        '➨ Fiecare facțiune oficială are permisiunea de a da un singur raid pe săptămână!',
+        '➨ Pentru a se da raid la o altă organizație oficială este necesar ca minim 6 membri din aceasta să fie în joc!',
+        '➨ Fiecare organizație oficială are permisiunea de a da un singur raid pe săptămână!',
         '<b>SANCȚIUNI:</b>',
         '⟶ Jail (30m)',
         '⟶ Jail (60m)',
@@ -419,6 +419,7 @@ const content = {
       header: '4.5 Jefuirea persoanelor care fac job',
       content: [
         '➨ Este strict interzis să jefuiți jucătorii la minijob-uri, job-uri, cât și pe cei care sunt în tură la facțiunile legale (poliție, medici, mecanici)!',
+        '➨ Regula nu se aplică în cazul în care au fost luate doar bunuri vătămătoare (cuțit, pistol, carabină etc.) sau doar bunuri care au rol de comunicare (telefon, radio, mdt etc.)!',
         '<b>SANCȚIUNI:</b>',
         '⟶ Jail (20m)',
         '⟶ Jail (40m)',
