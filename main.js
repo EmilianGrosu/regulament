@@ -40,13 +40,14 @@ const content = {
       content: [
         '➨ Reprezintă omorârea sau lovirea intenționată a unui jucător fără vreun motiv bine întemeiat.',
         '<b>Exemplu:</b> Mergeți pe stradă și luați la pumni un individ pentru că este de culoare neagră. Trebuie să fiți sancționat pentru că ați lovit intenționat un jucător fără vreun motiv bine întemeiat.',
+        '<b>Exemplu:</b> Sunteți membru al unei organizații mafiote și participați la un jaf de bancă. În timpul acțiunii, deschideți focul asupra unui elicopter de medici care patrulează în zonă. Trebuie să fiți sancționat pentru că ați lovit intenționat un jucător fără vreun motiv bine întemeiat.',
       ],
     },
     {
       header: '[PK] - Player Kill',
       content: [
         '➨ Reprezintă decesul IC al unui jucător, în urma căruia toate informațiile IC cu privire la acesta din ultimele 3 ore se vor anula.',
-        '<b>Exemplu:</b> Aflați că un polițist este corupt și peste 20 de minute muriți de foame. În cazul în care vă veți folosi de această informație după respawn, veți fi sancționat.',
+        '<b>Exemplu:</b> Aflați numele membrilor unei organizații ilegale și peste 20 de minute muriți de foame. În cazul în care vă veți folosi de această informație după respawn, veți fi sancționat.',
         '<b>Exemplu:</b> Vă aflați la o dispută între organizații. În urma unui schimb de focuri, omorâți o persoană. În loc să le spuneți camarazilor dumneavoastră doar că ați ucis un inamic, le comunicați numele victimei, fapt ce determină să nu se respecte PK-ul, deoarece, după respawn, ceilalți jucători îl vor cunoaște pe respectivul ca fiind mort. Prin urmare, veți fi sancționat pentru că nu ați respectat PK-ul.',
       ],
     },
@@ -58,7 +59,6 @@ const content = {
         '➨ Se acordă în următoarele situații:',
         '    ♦ Trădarea unei facțiuni',
         '<b>Exemplu:</b> Sunteți într-o organizație mafiotă, vindeți poliției informații care pun în pericol gruparea dumneavoastră, sunteți prins de către membri și primiți CK.',
-        '<b>Exemplu:</b> Faceți parte din Departamentul de Poliție și, în urma unei percheziții, în loc să depozitați la evidență drogurile găsite, alegeți să le vindeți ilegal. Sunteți prins de către superiori și aceștia hotărăsc să vă ofere CK.',
         '    ♦ Sinucidere',
         '<b>Exemplu:</b> Ați fost trădat de soție și ați hotărât să vă sinucideți, aruncându-vă de pe cea mai înaltă clădire.',
         '    ♦ Act suicidal pentru a scăpa de un roleplay',
@@ -209,6 +209,18 @@ const content = {
       ],
     },
     {
+      header: '2.8 Tichet',
+      content: [
+        '➨ Este interzis să creați un tichet cât timp vă aflați într-un roleplay în desfășurare și puteți deranja ceilalți participanți!',
+        '➨ Tichetele trebuie create doar dacă aveți o reclamație justificată, o întrebare legată de server sau o problemă reală!',
+        '<b>SANCȚIUNI:</b>',
+        '⟶ Jail (30m)',
+        '⟶ Jail (60m)',
+        '⟶ Jail (120m)',
+        '⟶ Jail (180m)',
+      ],
+    },
+    {
       header: '!3. Roleplay',
     },
     {
@@ -248,6 +260,7 @@ const content = {
       header: '3.4 Player Kill',
       content: [
         '➨ Este interzis să nu respectați un Player Kill!',
+        '➨ Nu se încalcă regula în cazul în care poliția revine la un jaf de clădire!',
         '<b>SANCȚIUNI:</b>',
         '⟶ Jail (15m)',
         '⟶ Jail (30m)',
@@ -315,13 +328,13 @@ const content = {
         '⟶ Jail (120m)',
         '⟶ Ban (7z)',
         '⟶ Ban (15z)',
+        '⟶ Ban (30z)',
       ],
     },
     {
       header: '3.10 Corupție',
       content: [
-        '➨ Este interzis ca administrația de la facțiunile de stat să fie coruptă!',
-        '➨ Este interzis ca membrii unei facțiuni de stat să ofere bunurile acesteia!',
+        '➨ Este interzis ca membrii unei facțiuni de stat (poliție, medici, mecanici, consiliu etc.) să fie corupți (job-uri sau alte activități ilegale, oferirea bunurilor din facțiune, oferirea de informații confidențiale ale facțiunii etc.)!',
         '<b>SANCȚIUNI:</b>',
         '⟶ Jail (30m)',
         '⟶ Jail (60m)',
@@ -358,13 +371,15 @@ const content = {
     {
       header: '3.13 Loc de muncă',
       content: [
-        '➨ Este interzis să fiți la un loc de muncă cu uniformă și să jefuiți sau răpiți!',
+        '➨ Este interzis să desfășurați activități care nu au legătură cu atribuțiile locului de muncă în timp ce vă aflați în tură, în cazurile unde se primește salariu!',
+        '➨ Este interzis să desfășurați activitatea de la locul de muncă folosind vehicule personale, dacă acel loc de muncă pune la dispoziție vehicule de serviciu. Singura excepție este pentru detectivii din cadrul poliției!',
         '➨ Este interzis să folosiți un vehicul de la locul de muncă pentru scopurile personale!',
         '<b>SANCȚIUNI:</b>',
-        '⟶ Jail (15m)',
         '⟶ Jail (30m)',
         '⟶ Jail (60m)',
         '⟶ Jail (120m)',
+        '⟶ Jail (180m)',
+        '⟶ Jail (240m)',
       ],
     },
     {
@@ -433,6 +448,7 @@ const content = {
       header: '5.1 Ostatic',
       content: [
         '➨ Este interzis să aveți un ostatic fals!',
+        '➨ Este interzis să solicitați bani sau bunuri personale în negocierile cu ostatici purtate cu facțiunile legale!',
         '➨ La jafuri puteți face roleplay cu ostatic, dar nu este obligatoriu!',
         '<b>SANCȚIUNI:</b>',
         '⟶ Jail (15m)',
