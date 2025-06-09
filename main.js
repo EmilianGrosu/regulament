@@ -83,6 +83,7 @@ const content = {
         '<b>Exemplu:</b> Sunteți atacat de un mafiot. Acesta are arma îndreptată înspre dumneavoastră și, neavând nicio cale de scăpare, nu efectuați comenzile pe care acesta vi le impune. Trebuie să fiți sancționat pentru că nu ați simulat frica într-un roleplay în care aceasta este necesară.',
         '<b>Exemplu:</b> Treceți insistent cu un vehicul prin fața secției de poliție, nerespectând legislația, pentru a provoca autoritățile să vă urmărească. Trebuie să fiți sancționat pentru că nu ați simulat frica într-un roleplay în care aceasta este necesară.',
         '<b>Exemplu:</b> Sunteți la secție, reținut de niște cadre de poliție și, în loc să vă conformați situației, aveți un comportament indecent cu autoritățile. Trebuie să fiți sancționat pentru că nu ați simulat frica într-un roleplay în care aceasta este necesară.',
+        '<b>Exemplu:</b> Sunteți amenințat cu o armă nonletală și alegeți să fugiți și să nu respectați comenzile atacatorului. În această situație, nu se consideră No Fear.',
       ],
     },
   ],
@@ -173,6 +174,7 @@ const content = {
       content: [
         '➨ Este interzis să stricați în mod intenționat buna desfășurare a comunității!',
         '➨ Este interzis să folosiți un program de redare a sunetelor fără aprobarea unui Management!',
+        '➨ Este interzis să folosiți un program de distorsionare a vocii fără aprobarea unui Management!',
         '<b>SANCȚIUNI:</b>',
         '⟶ Jail (30m)',
         '⟶ Jail (60m)',
@@ -238,6 +240,7 @@ const content = {
       header: '3.2 Powergaming',
       content: [
         '➨ Este interzis să faceți Powergaming!',
+        '➨ Se consideră Powergaming identificarea unei persoane după voce!',
         '<b>SANCȚIUNI:</b>',
         '⟶ Jail (15m)',
         '⟶ Jail (30m)',
@@ -261,6 +264,7 @@ const content = {
       content: [
         '➨ Este interzis să nu respectați un Player Kill!',
         '➨ Nu se încalcă regula în cazul în care poliția revine la un jaf de clădire!',
+        '➨ În cazul unui Player Kill primit la părăsirea unei organizații ilegale, se uită toate informațiile dobândite despre organizația respectivă, inclusiv cunoștințe despre alte grupări!',
         '<b>SANCȚIUNI:</b>',
         '⟶ Jail (15m)',
         '⟶ Jail (30m)',
@@ -335,6 +339,7 @@ const content = {
       header: '3.10 Corupție',
       content: [
         '➨ Este interzis ca membrii unei facțiuni de stat (poliție, medici, mecanici, consiliu etc.) să fie corupți (job-uri sau alte activități ilegale, oferirea bunurilor din facțiune, oferirea de informații confidențiale ale facțiunii etc.)!',
+        '➨ Confiscarea nejustificată de bunuri sau folosirea lor în scop personal se consideră corupție!',
         '<b>SANCȚIUNI:</b>',
         '⟶ Jail (30m)',
         '⟶ Jail (60m)',
