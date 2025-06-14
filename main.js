@@ -1,5 +1,5 @@
 const content = {
- termeni: [
+termeni: [
     {
       header: '[IC] - In Character',
       content: [
@@ -419,6 +419,7 @@ const content = {
       header: '4.3 Ore de jefuit',
       content: [
         '➨ Aveți permisiunea de a jefui doar în intervalul orar 18:00 - 06:00!',
+        '➨ Dacă un membru al unei organizații ilegale cere taxă pentru o locație deținută de organizația sa, iar persoana refuză să plătească, acesta are voie să îi confiște bunurile ilegale, indiferent de oră!',
         '<b>SANCȚIUNI:</b>',
         '⟶ Jail (20m)',
         '⟶ Jail (40m)',
