@@ -338,7 +338,8 @@ termeni: [
     {
       header: '3.10 Corupție',
       content: [
-        '➨ Este interzis ca membrii unei facțiuni de stat (poliție, medici, mecanici, consiliu etc.) să fie corupți (job-uri sau alte activități ilegale, oferirea bunurilor din facțiune, oferirea de informații confidențiale ale facțiunii etc.)!',
+        '➨ Este interzis ca membrii unei facțiuni de stat (poliție, medici, consiliu etc.) să fie corupți (job-uri sau alte activități ilegale, oferirea bunurilor din facțiune, oferirea de informații confidențiale ale facțiunii etc.)!',
+        '➨ Excepție de la această regulă are personalul din cadrul Departamentului de Reparații și Revizii Auto!',
         '➨ Confiscarea nejustificată de bunuri sau folosirea lor în scop personal se consideră corupție!',
         '<b>SANCȚIUNI:</b>',
         '⟶ Jail (30m)',
