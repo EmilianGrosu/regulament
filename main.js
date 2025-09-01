@@ -112,7 +112,7 @@ termeni: [
       header: '1.2 Activitatea contului',
       content: [
         '➨ Jucătorii care nu s-au logat în ultimele 60 de zile riscă pierderea proprietăților imobiliare și a afacerilor (dacă există).',
-        '➨ În cazul vehiculelor, acestea pot fi pierdute cu un an de inactivitate.',
+        '➨ În cazul vehiculelor, acestea pot fi pierdute după 90 de zile de inactivitate.',
         '➨ În cazul jucătorilor banați, aceștia pot pierde bunuri în funcție de gravitatea sancțiunii lor.',
       ],
     },
@@ -520,3 +520,4 @@ $(function () {
     setOption(action)
   })
 })
+
