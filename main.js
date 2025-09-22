@@ -126,6 +126,14 @@ termeni: [
       ],
     },
     {
+      header: '1.4 Software neautorizat',
+      content: [
+        '➨ Este interzisă folosirea oricărui program, aplicație sau instrument extern care oferă avantaje nejuste, exploatează sau afectează în orice fel funcționarea și echilibrul server-ului!',
+        '<b>SANCȚIUNI:</b>',
+        '⟶ Ban (permanent)',
+      ],
+    },
+    {
       header: '!2. Interacțiuni sociale',
     },
     {
@@ -520,4 +528,5 @@ $(function () {
     setOption(action)
   })
 })
+
 
