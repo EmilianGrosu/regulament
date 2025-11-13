@@ -1,5 +1,5 @@
 const content = {
-termeni: [
+  termeni: [
     {
       header: '[IC] - In Character',
       content: [
@@ -31,8 +31,9 @@ termeni: [
       header: '[PG] - Powergaming',
       content: [
         '➨ Reprezintă atribuirea de acțiuni imposibile în realitate sau roleplay-ul în care o persoană nu primește nicio șansă de răspuns.',
-        '<b>Exemplu:</b> Într-un schimb de focuri sunteți împușcat în mâini și ulterior cărați o persoană”. Trebuie să fiți sancționat pentru că v-ați atribuit o acțiune imposibilă în realitate.',
+        '<b>Exemplu:</b> Într-un schimb de focuri sunteți împușcat în mâini și ulterior cărați o persoană. Trebuie să fiți sancționat pentru că v-ați atribuit o acțiune imposibilă în realitate.',
         `<b>Exemplu:</b> Vă aflați într-o bătaie IC și oponentul dumneavoastră trimite mesaje de acest gen: '/me Îi dă un pumn în cap și îl omoară', '/me Îl împinge și îl face să leșine'. Acest jucător trebuie sancționat pentru că nu v-a lăsat nicio șansă de răspuns la roleplay!`,
+        '<b>Exemplu:</b> În timpul unui jaf depozitați un vehicul într-o parcare. Trebuie să fiți sancționat pentru că nu ați lăsat nicio șansă de răspuns la roleplay.',
       ],
     },
     {
@@ -462,9 +463,9 @@ termeni: [
     {
       header: '5.1 Ostatic',
       content: [
-        '➨ Este interzis să aveți un ostatic fals!',
+        '➨ Este interzis să aveți ostatic fals!',
         '➨ Este interzis să solicitați bani sau bunuri personale în negocierile cu ostatici purtate cu facțiunile legale!',
-        '➨ La jafuri puteți face roleplay cu ostatic, dar nu este obligatoriu!',
+        '➨ La jafuri nu se face roleplay cu ostatic!',
         '<b>SANCȚIUNI:</b>',
         '⟶ Jail (15m)',
         '⟶ Jail (30m)',
@@ -473,10 +474,22 @@ termeni: [
       ],
     },
     {
-      header: '5.2 Bănci',
+      header: '5.2 Magazine',
+      content: [
+        '➨ Pentru a jefui un magazin trebuie să fiți minim 2 persoane!',
+        '➨ Confruntarea începe imediat! Intervenția forțelor de ordine poate fi directă și imediată, fără avertisment!',
+        '<b>SANCȚIUNI:</b>',
+        '⟶ Jail (10m)',
+        '⟶ Jail (20m)',
+        '⟶ Jail (30m)',
+        '⟶ Jail (40m)',
+      ],
+    },
+    {
+      header: '5.3 Bănci',
       content: [
         '➨ Pentru a jefui o bancă trebuie să fiți minim 4 persoane!',
-        '➨ În cazul jafului de la banca Pacific, confruntarea începe imediat! Intervenția forțelor de ordine poate fi directă și imediată, fără avertisment!',
+        '➨ Confruntarea începe imediat! Intervenția forțelor de ordine poate fi directă și imediată, fără avertisment!',
         '<b>SANCȚIUNI:</b>',
         '⟶ Jail (10m)',
         '⟶ Jail (20m)',
@@ -528,5 +541,6 @@ $(function () {
     setOption(action)
   })
 })
+
 
 
