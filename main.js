@@ -439,7 +439,7 @@ const content = {
     {
       header: '4.4 Zone de jefuit',
       content: [
-        '➨ Este strict interzis să jefuiți în zonele publice (garsoniere de la spawn, magazine de orice tip, minijob-uri, job-uri, parcări, benzinării, străzi principale, autostrăzi etc.)!',
+        '➨ Este strict interzis să jefuiți în zonele publice!',
         '<b>SANCȚIUNI:</b>',
         '⟶ Jail (15m)',
         '⟶ Jail (30m)',
@@ -541,6 +541,7 @@ $(function () {
     setOption(action)
   })
 })
+
 
 
 
