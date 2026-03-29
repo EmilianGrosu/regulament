@@ -451,6 +451,7 @@ const content = {
       content: [
         '➨ Este strict interzis să jefuiți jucătorii la minijob-uri, job-uri, cât și pe cei care sunt în tură la facțiunile legale (poliție, medici, mecanici)!',
         '➨ Regula nu se aplică în cazul în care au fost luate doar bunuri vătămătoare (cuțit, pistol, carabină etc.) sau doar bunuri care au rol de comunicare (telefon, radio, mdt etc.)!',
+        '➨ Vehiculele de facțiuni pot fi furate doar în situații în care acestea reprezintă singura variantă de scăpare. Utilizarea acestora în orice alt scop, în afara evadării imediate, este strict interzisă!',
         '<b>SANCȚIUNI:</b>',
         '⟶ Jail (20m)',
         '⟶ Jail (40m)',
