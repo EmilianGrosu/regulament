@@ -85,6 +85,7 @@ const content = {
         '<b>Exemplu:</b> Treceți insistent cu un vehicul prin fața secției de poliție, nerespectând legislația, pentru a provoca autoritățile să vă urmărească. Trebuie să fiți sancționat pentru că nu ați simulat frica într-un roleplay în care aceasta este necesară.',
         '<b>Exemplu:</b> Sunteți la secție, reținut de niște cadre de poliție și, în loc să vă conformați situației, aveți un comportament indecent cu autoritățile. Trebuie să fiți sancționat pentru că nu ați simulat frica într-un roleplay în care aceasta este necesară.',
         '<b>Exemplu:</b> Sunteți amenințat cu o armă nonletală și alegeți să fugiți și să nu respectați comenzile atacatorului. În această situație, nu se consideră No Fear.',
+        '<b>Exemplu:</b> Sunteți un civil surprins de poliție în timp ce încălcați legea. Deși ofițerii au armele îndreptate spre dumneavoastră și vă cer să vă predați, alegeți să încercați să fugiți sau chiar să ripostați împotriva acestora pentru a scăpa. În această situație, nu se consideră No Fear.',
       ],
     },
   ],
@@ -129,7 +130,7 @@ const content = {
     {
       header: '1.4 Software neautorizat',
       content: [
-        '➨ Este interzisă folosirea oricărui program, aplicație sau instrument extern care oferă avantaje nejuste, exploatează sau afectează în orice fel funcționarea și echilibrul server-ului!',
+        '➨ Este interzisă folosirea oricărui program, aplicație sau instrument extern care oferă avantaje nejuste, exploatează sau afectează în orice fel funcționarea și echilibrul serverului!',
         '<b>SANCȚIUNI:</b>',
         '⟶ Ban (permanent)',
       ],
@@ -306,9 +307,7 @@ const content = {
     {
       header: '3.7 Conducere auto',
       content: [
-        '➨ Este interzis să conduceți nebunesc, fără vreun motiv bine întemeiat!',
         '➨ Este interzis să provocați intenționat un accident!',
-        '➨ Este interzis să conduceți pe contrasens, fără vreun motiv bine întemeiat!',
         '➨ Este interzis să faceți orice manevră de imobilizare la o viteză de peste 150 de km/h!',
         '➨ Este interzis să aterizați cu elicopterul pe un drum auto, fără vreun motiv bine întemeiat!',
         '➨ Este interzis să loviți intenționat un jucător folosind un vehicul, indiferent de situație!',
@@ -320,18 +319,7 @@ const content = {
       ],
     },
     {
-      header: '3.8 Comă',
-      content: [
-        '➨ Este interzis să faceți vreo acțiune cât timp sunteți în comă!',
-        '<b>SANCȚIUNI:</b>',
-        '⟶ Jail (10m)',
-        '⟶ Jail (20m)',
-        '⟶ Jail (30m)',
-        '⟶ Jail (60m)',
-      ],
-    },
-    {
-      header: '3.9 Înșelăciune',
+      header: '3.8 Înșelăciune',
       content: [
         '➨ Este interzis să înșelați pe cineva dacă suma totală de câștig este mai mare decât 5000 lei!',
         '➨ Se încadrează și situațiile unde propuneți unui jucător o tranzacționare cu scopul ca acesta să fie jefuit ulterior!',
@@ -345,7 +333,7 @@ const content = {
       ],
     },
     {
-      header: '3.10 Corupție',
+      header: '3.9 Corupție',
       content: [
         '➨ Este interzis ca membrii unei facțiuni de stat (poliție, medici, consiliu etc.) să fie corupți (job-uri sau alte activități ilegale, oferirea bunurilor din facțiune, oferirea de informații confidențiale ale facțiunii etc.)!',
         '➨ Excepție de la această regulă are personalul din cadrul Departamentului de Reparații și Revizii Auto!',
@@ -360,7 +348,7 @@ const content = {
       ],
     },
     {
-      header: '3.11 Raid-uri',
+      header: '3.10 Raid-uri',
       content: [
         '➨ Este interzis ca o organizație, alta decât cele oficiale, să facă un raid!',
         '➨ Pentru a se da raid la o altă organizație oficială este necesar ca minim 6 membri din aceasta să fie în joc!',
@@ -372,7 +360,7 @@ const content = {
       ],
     },
     {
-      header: '3.12 Instituție',
+      header: '3.11 Instituție',
       content: [
         '➨ Este interzis să faceți activități periculoase într-o instituție (curtea de apel, secția de poliție, spitalul, service-ul auto, consiliul, judecătoria, universitatea etc.), cât și în împrejurimile acesteia!',
         '➨ Este interzis să se fure bunuri din depozitele facțiunilor legale!',
@@ -384,7 +372,7 @@ const content = {
       ],
     },
     {
-      header: '3.13 Loc de muncă',
+      header: '3.12 Loc de muncă',
       content: [
         '➨ Este interzis să desfășurați activități care nu au legătură cu atribuțiile locului de muncă în timp ce vă aflați în tură, în cazurile unde se primește salariu!',
         '➨ Este interzis să desfășurați activitatea de la locul de muncă folosind vehicule personale, dacă acel loc de muncă pune la dispoziție vehicule de serviciu. Singura excepție este pentru detectivii din cadrul poliției!',
