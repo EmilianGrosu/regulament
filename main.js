@@ -917,6 +917,9 @@ $(function () {
     }
   }
 
+  display(true)
+  setOption('regulament', true)
+
   window.addEventListener('message', function (event) {
     var item = event.data
     if (item.type === 'ui') {
@@ -928,13 +931,6 @@ $(function () {
       }
     }
   })
-
-  document.onkeyup = function (data) {
-    if (data.which == 27) {
-      $.post(`https://${GetParentResourceName()}/exit`, JSON.stringify({}))
-      return
-    }
-  }
 
   $('button').click(function () {
     const action = $(this).data('action')
