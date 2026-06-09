@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 
-<html lang='en' dir='ltr'>
+<html lang='ro' dir='ltr'>
   <head>
     <meta charset='utf-8' />
     <meta name='viewport' content='width=device-width, initial-scale=1.0' />
     <link rel='stylesheet' href='style.css' />
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src='nui://game/ui/jquery.js' type='text/javascript'></script>
   </head>
   <body>
     <div class='eclipse left'></div>
@@ -16,15 +16,18 @@
         <h1 class='navbar-header'>Informații</h1>
         <img src='i.png' class='info-img' />
         <p class='navbar-desc'>
-          Acest meniu reprezintă centrul de informații esențiale pentru jucători, oferind acces rapid la o diversitate de categorii
-          <br>
-          Este conceput pentru a vă ajuta să înțelegeți regulile și mecanicile acestui server, asigurând o experiență de joc plăcută și echilibrată
+          Regulamentul este organizat pentru a explica clar ce este permis, ce este interzis și ce sancțiuni se pot aplica
         </p>
       </div>
       <div class='content'>
-        <div class='content-nav'>
-          <button id='termeni' class='active' data-action='termeni'>Termeni</button>
-          <button id='regulament' data-action='regulament'>Regulament</button>
+        <div class='content-toolbar'>
+          <div class='content-nav'>
+            <button id='regulament' class='active' data-action='regulament'>Regulament</button>
+            <!-- <button id='tutoriale' data-action='tutoriale'>Tutoriale</button> -->
+          </div>
+          <div class='search-box'>
+            <input id='info-search' type='text' autocomplete='off' placeholder='Căutați în regulament...' />
+          </div>
         </div>
         <div class='content-container'>
           <div class='value'></div>
