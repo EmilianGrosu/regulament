@@ -421,7 +421,7 @@ const content = {
         {
           header: 'Război între facțiuni',
           content: [
-            '<b>Exemplu:</b> Dețineți o organizație și sunteți în conflict cu o altă grupare. Sunteți de comun acord să faceți război pe CK. În urma acestuia, toți membrii din facțiunea.',
+            '<b>Exemplu:</b> Dețineți o organizație și sunteți în conflict cu o altă grupare. Sunteți de comun acord să faceți război pe CK. În urma acestuia, toți membrii din facțiunea care pierde războiul pot primi CK, dacă acțiunea a fost aprobată și desfășurată corect.',
           ],
         },
         {
