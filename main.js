@@ -45,6 +45,8 @@ const content = {
       header: '1.4 Software neautorizat',
       content: [
         '➨ Este interzisă folosirea oricărui program, aplicație sau instrument extern care oferă avantaje nejuste, exploatează sau afectează în orice fel funcționarea și echilibrul serverului.',
+        '➨ Jucătorii care știu că o persoană utilizează software neautorizat și ascund intenționat această informație, fără să o raporteze, sunt considerați complici și pot fi sancționați.',
+        '➨ Jucătorii care obțin o dovadă clară că o persoană utilizează software neautorizat și o raportează pot fi recompensați cu MB-uri, în funcție de vechimea jucătorului sancționat.',
       ],
       sections: [
         {
@@ -52,6 +54,14 @@ const content = {
           content: [
             '➨ Echipa STAFF poate solicita verificarea PC-ului atunci când există suspiciuni de software neautorizat.',
             '➨ Se consideră refuz dacă ștergeți fișiere, modificați fișiere sau încercați să ascundeți ceva înainte ori în timpul verificării.',
+          ],
+        },
+        {
+          header: 'Filmarea confruntărilor',
+          content: [
+            '➨ Este obligatoriu să aveți filmare completă, de la început până la final, când participați la confruntări, altercații sau conflicte în care se folosesc arme de foc.',
+            '➨ Dacă sunteți suspectat într-o astfel de situație și nu prezentați filmarea la cererea unui membru STAFF, sancțiunea este ban 30 de zile. La prima abatere, acesta poate aplica avertisment dacă apreciază că situația permite.',
+            '➨ Jucătorii cu PC-uri mai slabe pot transmite live nelistat pe YouTube, la maximum 720p, pentru a păstra filmarea. Dacă nu pot asigura filmarea, trebuie să evite situațiile în care aceasta este obligatorie.',
           ],
         },
       ],
@@ -239,7 +249,8 @@ const content = {
     {
       header: '2.8 Tichet',
       content: [
-        '➨ Este interzis să creați un tichet cât timp vă aflați într-un roleplay în desfășurare și puteți deranja ceilalți participanți.',
+        '➨ Este interzis să creați un tichet în timpul unui roleplay în desfășurare, cu excepția unei reclamații clare de încălcare a regulamentului.',
+        '➨ Dacă un membru STAFF constată că tichetul a fost creat intenționat pentru a opri sau strica roleplay-ul, se poate aplica o sancțiune în funcție de situație, chiar dacă persoana a considerat că regulamentul a fost încălcat.',
         '➨ Tichetele trebuie create doar dacă aveți o reclamație justificată, o întrebare legată de server sau o problemă reală.',
       ],
       sanctions: [
@@ -348,6 +359,14 @@ const content = {
             '➨ Dacă o situație poate fi rezolvată prin discuție, amenințare sau altă acțiune mai ușoară, nu trebuie să se ajungă direct la omor.',
             '➨ Folosirea armelor trebuie să aibă un motiv serios și să fie proporțională cu situația.',
             '<b>Exemplu:</b> Sunteți membru al unei organizații mafiote și participați la un jaf de bancă. În timpul acțiunii, deschideți din prima focul asupra unui elicopter de medici care doar patrula la distanță prin zonă. Trebuie să fiți sancționat pentru că ați pornit direct focul asupra unui jucător, fără să fi încercat să trageți focuri de avertizare înainte.',
+          ],
+        },
+        {
+          header: 'Intervenția poliției',
+          content: [
+            '➨ Un polițist poate folosi arma de foc asupra unui jucător doar dacă acesta are cod 0. În caz contrar, se consideră Deathmatch.',
+            '➨ Codul 0 se acordă doar când jucătorul pune în pericol viața persoanelor din jur: îndreaptă arma spre cineva sau, având arma în mână, nu se conformează somației clare. Fuga de poliție nu se consideră cod 0.',
+            '➨ Pistolul cu electroșocuri și armele albe pot fi folosite doar după ce jucătorul a fost somat corespunzător și refuză să coopereze.',
           ],
         },
       ],
@@ -586,9 +605,25 @@ const content = {
       header: '3.12 Instituție',
       content: [
         '➨ Este interzis să faceți activități periculoase într-o instituție (curtea de apel, secția de poliție, spitalul, service-ul auto, consiliul, judecătoria, universitatea etc.), cât și în împrejurimile acesteia.',
-        '➨ Este interzis să trageți cu arme de foc sau să folosiți arme asupra unei instituții, indiferent de zona din care trageți. Regula se aplică și dacă sunteți în afara instituției, dar acțiunea vizează instituția sau persoanele aflate în interiorul sau în zona acesteia.',
         '➨ Este interzis să se fure bunuri din depozitele facțiunilor legale.',
         '➨ Este interzis să se facă roleplay că se șterge baza de date a unei instituții.',
+      ],
+      sections: [
+        {
+          header: 'Folosirea armelor asupra instituțiilor',
+          content: [
+            '➨ Este interzis să trageți cu arme de foc sau să folosiți arme asupra unei instituții, indiferent de zona din care trageți.',
+            '➨ Regula se aplică și dacă sunteți în afara instituției, dar acțiunea vizează instituția sau persoanele aflate în interiorul sau în zona acesteia.',
+          ],
+        },
+        {
+          header: 'Penitenciar',
+          content: [
+            '➨ Penitenciarul este considerat instituție.',
+            '➨ Este interzis ca jucătorii din exterior să elibereze sau să ajute o persoană în cadrul penitenciarului. Singura excepție este acordul sindicatului.',
+            '➨ Deținuții pot participa la bătăi și activități periculoase în penitenciar dacă acestea au un scop de roleplay, precum evadarea.',
+          ],
+        },
       ],
       sanctions: [
         '⟶ Jail (30m - 180m)',
@@ -616,6 +651,7 @@ const content = {
           header: 'Interdicții în zonele publice',
           content: [
             '➨ În zonele publice este interzis să jefuiți, să răpiți, să folosiți arme albe sau arme de foc, să furați vehicule, sau să luați bunuri din vehicule.',
+            '➨ Este interzis să trageți dintr-o zonă rău famată asupra unei zone publice. Acțiunea se consideră tras în zonă publică.',
             '➨ Furtul unui vehicul în zonă publică nu este permis, inclusiv atunci când vehiculul are cheia în contact și este lăsat descuiat.',
             '➨ În zonele publice este permisă doar bătaia cu pumnii, dacă există un motiv roleplay.',
           ],
