@@ -657,6 +657,13 @@ const content = {
           ],
         },
         {
+          header: 'Procedura poliției',
+          content: [
+            '➨ Poliția poate echipa și utiliza arma de foc într-o zonă publică doar atunci când persoana vizată are cod 0.',
+            '➨ Codul 0 se acordă doar când jucătorul pune în pericol viața persoanelor din jur: îndreaptă arma spre cineva sau, având arma în mână, nu se conformează unei somații clare.',
+          ],
+        },
+        {
           header: 'Excepții',
           content: [
             '➨ Excepțiile sunt activitățile ilegale ale serverului care sunt construite să se desfășoare acolo, precum livratul de țigări, jafurile de case, magazine, bănci sau alte sisteme ale serverului.',
